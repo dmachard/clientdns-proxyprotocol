@@ -1,6 +1,6 @@
 # DNS Client with Proxy Protocol v2  
 
-This is a Go-based DNS client that supports **Proxy Protocol v2**, allowing you to send DNS queries while preserving client source IP information. It utilizes the [`miekg/dns`](https://github.com/miekg/dns) and [`pires/go-proxyproto`](https://github.com/pires/go-proxyproto) libraries.  
+This is a Go-based DNS client that supports **Proxy Protocol v2**, allowing you to send DNS queries while preserving client source IP information.
 
 ## Features  
 ✅ Sends DNS queries using UDP  
@@ -45,5 +45,5 @@ Example to query an AAAA record with Proxy Protocol and a TLV field:
 ```
 
 ## Dependencies
-- miekg/dns – DNS library for Go
-- pires/go-proxyproto – Proxy Protocol implementation
+- [`miekg/dns`](https://github.com/miekg/dns) – DNS library for Go
+- [`pires/go-proxyproto`](https://github.com/pires/go-proxyproto) – Proxy Protocol implementation
